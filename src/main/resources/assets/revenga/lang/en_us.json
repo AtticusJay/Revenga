@@ -2,5 +2,8 @@
   "item.revenga.titanium_ingot": "Titanium Ingot",
   "item.revenga.raw_titanium": "Raw Titanium",
 
+  "block.revenga.titanium_block": "Titanium Block",
+  "block.revenga.titanium_ore": "Titanium Ore",
+
   "creativetab.revenga_tab": "Revenga"
 }

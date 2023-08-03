@@ -1,6 +1,7 @@
 package net.atticusjay.revenga.item;
 
 import net.atticusjay.revenga.Revenga;
+import net.atticusjay.revenga.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RAW_TITANIUM.get());
                         pOutput.accept(ModItems.TITANIUM_INGOT.get());
+                        pOutput.accept(ModBlocks.TITANIUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.TITANIUM_ORE.get());
                     })
                     .build());
 

@@ -1,6 +1,7 @@
 package net.atticusjay.revenga;
 
 import com.mojang.logging.LogUtils;
+import net.atticusjay.revenga.block.ModBlocks;
 import net.atticusjay.revenga.item.ModCreativeModeTabs;
 import net.atticusjay.revenga.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,6 +28,7 @@ public class Revenga {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
